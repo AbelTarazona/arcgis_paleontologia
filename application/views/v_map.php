@@ -87,6 +87,13 @@
     <script src="<?php echo base_url(); ?>public/js/map.js"></script>
 
     <script>
+    $('.nav-link').click(function() {
+        $('.nav-link').removeClass( "active" );
+         alert($(this).text());
+      });
+    </script>
+
+    <script>
         /* globals Chart:false, feather:false */
 
         (function () {
