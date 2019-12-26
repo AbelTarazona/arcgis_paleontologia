@@ -31,9 +31,9 @@
 
 
         #map {
-            padding: 0;
             width: 100%;
-            height: 100%;
+            position: absolute;
+            height: 100vh;
         }
 
         .dj_ie .infowindow .window .top .right .user .content {
@@ -85,13 +85,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
     <script src="https://js.arcgis.com/3.22/"></script>
     <script src="<?php echo base_url(); ?>public/js/map.js"></script>
-
-    <script>
-    $('.nav-link').click(function() {
-        $('.nav-link').removeClass( "active" );
-         alert($(this).text());
-      });
-    </script>
 
     <script>
         /* globals Chart:false, feather:false */
