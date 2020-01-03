@@ -55,3 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 $route['ficha'] = 'C_ficha_tecnica';
+$route['ficha_lista'] = 'C_ficha_lista';
+$route['ficha_detalle'] = 'C_ficha_detalle';

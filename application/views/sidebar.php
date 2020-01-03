@@ -2,13 +2,13 @@
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="/arcgis_paleontologia">
+                            <a class="nav-link" href="/paleogis">
                                 <span data-feather="map"></span>
                                 Mapa <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ficha">
+                            <a class="nav-link" href="ficha_lista">
                                 <span data-feather="clipboard"></span>
                                 Ficha Técnica
                             </a>
